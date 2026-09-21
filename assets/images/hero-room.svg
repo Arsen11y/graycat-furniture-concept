@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img">
+  <defs>
+    <linearGradient id="heroWall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e8e3d9" />
+      <stop offset="1" stop-color="#cfcac0" />
+    </linearGradient>
+    <linearGradient id="heroFloor" x1="0" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#c9b9a0" />
+      <stop offset="1" stop-color="#a79075" />
+    </linearGradient>
+    <linearGradient id="heroCabinet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8d9181" />
+      <stop offset="1" stop-color="#60685e" />
+    </linearGradient>
+    <linearGradient id="heroIsland" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d7bda2" />
+      <stop offset="1" stop-color="#b18e71" />
+    </linearGradient>
+    <filter id="heroShadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#51483d" flood-opacity=".2" />
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#heroWall)" />
+  <path d="M0 608 1200 558v342H0z" fill="url(#heroFloor)" />
+  <path d="m0 690 1200-80M0 786l1200-93M180 608 84 900M410 600l-2 300M690 590l82 310M962 577l150 323" fill="none" stroke="#87745f" stroke-opacity=".24" stroke-width="3" />
+  <rect x="774" y="72" width="314" height="382" rx="8" fill="#c5d0ce" stroke="#f5f0e8" stroke-width="18" />
+  <path d="M931 72v382M774 264h314" stroke="#f5f0e8" stroke-width="12" />
+  <path d="M782 83h138v169H782z" fill="#d9e2df" opacity=".72" />
+  <path d="m1003 84 78 23v143l-78-2z" fill="#afc0bf" opacity=".56" />
+  <rect x="106" y="165" width="275" height="424" rx="7" fill="url(#heroCabinet)" filter="url(#heroShadow)" />
+  <rect x="131" y="191" width="224" height="150" rx="3" fill="#727b70" />
+  <rect x="131" y="369" width="224" height="196" rx="3" fill="#687164" />
+  <path d="M244 191v150M244 369v196" stroke="#a9b0a2" stroke-opacity=".32" stroke-width="2" />
+  <path d="M161 222h78M272 222h56M161 398h78M272 398h56M161 442h78M272 442h56M161 486h78M272 486h56M161 530h78M272 530h56" stroke="#d0d1c5" stroke-opacity=".32" stroke-width="4" stroke-linecap="round" />
+  <rect x="74" y="568" width="350" height="32" rx="5" fill="#b69a7b" />
+  <rect x="89" y="600" width="322" height="17" fill="#756653" />
+  <rect x="489" y="404" width="369" height="181" rx="9" fill="url(#heroCabinet)" filter="url(#heroShadow)" />
+  <rect x="489" y="384" width="369" height="30" rx="8" fill="#d2b99d" />
+  <rect x="512" y="430" width="147" height="126" rx="4" fill="#788174" />
+  <rect x="683" y="430" width="145" height="126" rx="4" fill="#667064" />
+  <path d="M531 468h108M531 512h108M701 468h108M701 512h108" stroke="#c6cbbf" stroke-opacity=".3" stroke-width="4" stroke-linecap="round" />
+  <rect x="560" y="271" width="9" height="122" rx="4" fill="#3e433f" />
+  <path d="M564 271c0-71 94-71 94 0v35" fill="none" stroke="#3e433f" stroke-width="9" stroke-linecap="round" />
+  <ellipse cx="657" cy="312" rx="22" ry="7" fill="#343934" />
+  <rect x="440" y="587" width="455" height="29" rx="5" fill="#d8c3a9" />
+  <path d="M470 616h22v119h-22zM836 616h22v119h-22z" fill="#796653" />
+  <rect x="932" y="490" width="112" height="156" rx="4" fill="#b9aa91" />
+  <path d="M1016 490h28v156h-28z" fill="#93816b" />
+  <path d="M1007 465c-30 0-42 21-42 42h84c0-21-12-42-42-42z" fill="#8d9885" />
+  <path d="M1007 475c-15-57 4-90 31-118M1000 471c-32-53-64-56-82-80M1018 476c36-42 62-42 80-70" fill="none" stroke="#6c7c68" stroke-width="8" stroke-linecap="round" />
+  <circle cx="1038" cy="356" r="20" fill="#91a087" />
+  <circle cx="918" cy="390" r="23" fill="#7f8f78" />
+  <circle cx="1083" cy="407" r="19" fill="#a3ae95" />
+  <rect y="0" width="1200" height="900" fill="#f8f1e5" opacity=".11" />
+</svg>

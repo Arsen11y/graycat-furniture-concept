@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img">
+  <defs>
+    <linearGradient id="wWall" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e7e4dc" /><stop offset="1" stop-color="#c9c5bb" /></linearGradient>
+    <linearGradient id="wFloor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#b6a58f" /><stop offset="1" stop-color="#8a7560" /></linearGradient>
+    <linearGradient id="wDoor" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c8c2b6" /><stop offset="1" stop-color="#a7a69c" /></linearGradient>
+    <filter id="wShadow"><feDropShadow dx="0" dy="18" stdDeviation="16" flood-color="#4a433b" flood-opacity=".2" /></filter>
+  </defs>
+  <rect width="900" height="720" fill="url(#wWall)" />
+  <path d="M0 500 900 445v275H0z" fill="url(#wFloor)" />
+  <path d="m0 590 900-67M0 680l900-64M200 488 110 720M505 470l12 250M725 456l68 264" fill="none" stroke="#695848" stroke-opacity=".22" stroke-width="3" />
+  <rect x="95" y="100" width="650" height="385" rx="7" fill="#575b53" filter="url(#wShadow)" />
+  <rect x="118" y="126" width="193" height="334" rx="3" fill="url(#wDoor)" />
+  <rect x="325" y="126" width="193" height="334" rx="3" fill="#b9b7aa" />
+  <rect x="532" y="126" width="190" height="334" rx="3" fill="#a4a79d" />
+  <path d="M311 126v334M518 126v334" stroke="#4d514b" stroke-width="10" />
+  <path d="M201 294h4M408 294h4M614 294h4" stroke="#5f625a" stroke-width="8" stroke-linecap="round" />
+  <rect x="131" y="139" width="167" height="20" rx="10" fill="#e9e2d5" opacity=".34" />
+  <rect x="338" y="139" width="167" height="20" rx="10" fill="#e9e2d5" opacity=".34" />
+  <rect x="545" y="139" width="164" height="20" rx="10" fill="#e9e2d5" opacity=".34" />
+  <rect x="155" y="478" width="535" height="25" rx="4" fill="#cfc1aa" />
+  <rect x="213" y="503" width="21" height="114" fill="#705d4d" />
+  <rect x="616" y="503" width="21" height="114" fill="#705d4d" />
+  <rect x="774" y="302" width="52" height="181" rx="3" fill="#aa8f78" />
+  <path d="M800 302v181" stroke="#e0ccb4" stroke-width="2" opacity=".7" />
+  <path d="M791 283c-24-37-14-70 7-87M806 283c14-36 41-47 55-72" fill="none" stroke="#697663" stroke-width="6" stroke-linecap="round" />
+  <circle cx="774" cy="207" r="20" fill="#899985" />
+  <circle cx="856" cy="211" r="24" fill="#a3ad94" />
+  <ellipse cx="456" cy="616" rx="225" ry="23" fill="#5d4c3e" opacity=".18" />
+</svg>
