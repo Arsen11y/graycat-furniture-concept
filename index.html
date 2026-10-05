@@ -10,7 +10,9 @@
     <meta name="theme-color" content="#f4f1eb" />
     <title>FORMA — мебель по месту</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/assistant.css" />
     <script src="js/main.js" defer></script>
+    <script src="js/assistant-demo.js" defer></script>
   </head>
   <body>
     <a class="skip-link" href="#main-content">Перейти к содержимому</a>
@@ -553,5 +555,36 @@
         <div class="footer-bottom"><span>© 2026 GrayCatStudio concept</span><span>Made for a real-world brief</span></div>
       </div>
     </footer>
+
+    <div class="furniture-assistant" data-assistant>
+      <button class="assistant-launcher" type="button" aria-controls="assistant-panel" aria-expanded="false" data-assistant-open>Задать вопрос</button>
+      <section class="assistant-panel" id="assistant-panel" aria-label="Мебельный консультант — демонстрация" hidden>
+        <div class="assistant-heading">
+          <div>
+            <strong>Мебельный консультант</strong>
+            <p>Демо интерфейса: ответы на тестовые вопросы без подключения к AI</p>
+          </div>
+          <button class="assistant-close" type="button" aria-label="Закрыть чат" data-assistant-close>×</button>
+        </div>
+        <div class="assistant-transcript" role="log" aria-label="Демонстрационная переписка" aria-live="polite" data-assistant-log>
+          <div class="assistant-welcome" data-assistant-welcome>
+            <p>Здравствуйте. Это публичная статическая демонстрация интерфейса консультанта. Выберите тестовый вопрос.</p>
+            <div class="assistant-suggestions" aria-label="Тестовые вопросы">
+              <button type="button" data-assistant-prompt="Как начать заказ?">Как начать заказ?</button>
+              <button type="button" data-assistant-prompt="Можно выбрать МДФ?">Можно выбрать МДФ?</button>
+              <button type="button" data-assistant-prompt="Можно сделать по моим размерам?">Можно сделать по моим размерам?</button>
+              <button type="button" data-assistant-prompt="Какая гарантия?">Какая гарантия?</button>
+            </div>
+          </div>
+        </div>
+        <p class="assistant-status" role="status" aria-live="polite" data-assistant-status></p>
+        <form class="assistant-compose" data-assistant-form>
+          <label class="sr-only" for="assistant-message">Вопрос консультанту</label>
+          <textarea id="assistant-message" name="message" rows="2" maxlength="8000" placeholder="Выберите тестовый вопрос или напишите свой" required></textarea>
+          <button type="submit">Отправить</button>
+        </form>
+        <p class="assistant-disclosure">Публичное demo без API. Свободные вопросы не отправляются на сервер.</p>
+      </section>
+    </div>
   </body>
 </html>
